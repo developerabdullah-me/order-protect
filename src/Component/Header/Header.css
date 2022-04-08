@@ -1,0 +1,13 @@
+.header{
+    background-color: #03203C;
+    padding:10px;
+}
+.header nav a{
+    
+   text-decoration: none;
+   margin-right: 10px;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 20px;
+   font:bold;
+}
