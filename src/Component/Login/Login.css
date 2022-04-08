@@ -1,0 +1,16 @@
+.loginContainer{
+    margin-top:20px;
+}
+
+.login {
+    padding: 10px 20px;
+    text-align: center;
+    display: inline;
+    /* margin: auto; */
+    /* width: 280px; */
+    /* background-color: #3a50d9; */
+    color: #eaeaea;
+    font: italic bold 53px Georgia, Serif;
+    text-shadow: -3px 3px 0 #480001, -2px 1px 0 #0a0e27;
+    letter-spacing: 4px;
+}
