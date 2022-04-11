@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import useFirebase from '../../hooks/firebase';
 import './Header.css'
 const Header = () => {
-    const {user}=useFirebase()
+    const {user,handleSingOut}=useFirebase()
     return (
         <div className="header">
         
@@ -13,9 +13,9 @@ const Header = () => {
                 <Link to='/Order'>Order</Link>
                 <Link to='/Register'>Register</Link>
               {
-              user.uid
+              user?.uid
                   ?
-                <button> sing Out</button>
+                <button onClick={handleSingOut}> sing Out</button>
                  :
               <Link to='/Login'>Login</Link>
              
