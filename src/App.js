@@ -5,6 +5,8 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Component/Home/Home';
 import Login from './Component/Login/Login';
 import Register from './Component/Register/Register';
+import Order from './Component/Order.jsx/Order';
+import Requir from './Component/Requir';
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
     <Header></Header>
     <Routes>
     <Route path="/Home" element={<Home></Home>}></Route>
-    <Route path="/LOgin" element={<Login></Login>}></Route>
+    <Route path="/login" element={<Login></Login>}></Route>
     <Route path="/Register" element={<Register></Register>}></Route>
+    <Route path="/order" element={
+   <Requir> <Order></Order></Requir>
+    }></Route>
   
     </Routes>
     </div>
