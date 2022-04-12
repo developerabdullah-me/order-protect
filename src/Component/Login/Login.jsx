@@ -16,7 +16,7 @@ const Login = () => {
           <div className="loginContainer">
               <h1 className="login">Please Login</h1>
           </div>
-          <div className="">
+          <div className="b-dotted white w-250 mx-auto margin-top-20 p-y-10">
           <button onClick={() =>signInWithGoogle()}>sing in with google</button> 
             <form>
         
